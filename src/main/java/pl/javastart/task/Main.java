@@ -3,7 +3,7 @@ package pl.javastart.task;
 public class Main {
 
     public static void main(String[] args) {
-        Room room1 = new Room(18, 19.5, true);
+        Room room1 = new Room(18, 19.99, true, 17);
         System.out.println("Pokój nr 1:");
         room1.getInfo();
         room1.minusTemperature();
@@ -14,7 +14,7 @@ public class Main {
         room1.getInfo();
         room1.minusTemperature();
 
-        Room room2 = new Room(24, 20, false);
+        Room room2 = new Room(24, 20, false, 17);
         System.out.println("\nPokój nr 2:");
         room2.getInfo();
         room2.minusTemperature();
